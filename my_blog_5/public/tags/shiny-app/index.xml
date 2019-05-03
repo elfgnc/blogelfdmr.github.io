@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shiny App on Elif Demir</title>
+    <link>/tags/shiny-app/</link>
+    <description>Recent content in Shiny App on Elif Demir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/shiny-app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Shiny </title>
+      <link>/post/shiny/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/shiny/</guid>
+      <description>Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions. Shiny combines the computational power of R with the interactivity of the modern web. Shiny apps are easy to write. No web development skills are required.</description>
+    </item>
+    
+  </channel>
+</rss>

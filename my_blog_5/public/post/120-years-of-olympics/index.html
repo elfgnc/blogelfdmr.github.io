@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>120 Years of Olympics </title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: red;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/solarized-dark.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.55.5" />
+        
+
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">120 Years of Olympics </a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:zelfgnc@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/elfgnc/blogelfdmr.github.io/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/elfdmr"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/120-years-of-olympics/">120 Years of Olympics </a></h4>
+    <h5>May 3, 2019</h5>
+    
+    <a href="/tags/shiny-dashboard"><kbd class="item-tag">shiny dashboard</kbd></a>
+    
+    <a href="/tags/rmarkdown"><kbd class="item-tag">RMarkdown</kbd></a>
+    
+    <a href="/tags/github"><kbd class="item-tag">GitHub</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>The ancient olympic game was help at Olympia, Greece, from 776 BC through 393 AD. It returned after 1503 years. THe first modern olympic was held in Athenes, Greece in 1896. The ‘modern Olympics’ comprises all the Games from Athens 1896 to Rio 2016. Baron Pierre de Coubertin presented the idea in 1894.</p>
+<p>There are two long periods without any Games between 1912-1920 and 1936-1948, corresponding to WWI and WWII.</p>
+<p>Perhaps, the most significant benefit of visual analytics is to ease the understanding of complex data, while representing it in correct, concise, and appropriate way. This manuscript proposes a handy visualization analysis of Olympic games between 1896 to 2016, which comprises in four levels of design system. These four levels are;</p>
+<ul>
+<li>Characterization of the tasks and data in the vocabulary of the problem domain,</li>
+<li>Abstract into operations and data types,</li>
+<li>Design visual encoding and interaction techniques,</li>
+<li>Create algorithms to execute these techniques, efficiently.</li>
+</ul>
+<p>This application utilizes concrete analysis examples and claim to provide efficient, effective, functional, and convenient model for users. Discussion, conclusion, future work are summarized along with requesting recommendation for improvement of the limitations, where it was surveyed in evaluation as another section.</p>
+<p><strong>Goal</strong></p>
+<ul>
+<li>How participation changed over time?</li>
+<li>What nations own most medels in various discipline?</li>
+<li>female in Olympics</li>
+</ul>
+<p><strong>Data Characteristics</strong></p>
+<ul>
+<li>events (summer and winter)</li>
+<li>sports level data</li>
+<li>atheletes level data</li>
+<li>excluded art competition (focused on atheletics)</li>
+</ul>
+</div>
+<div id="domain-problem-charactarization" class="section level2">
+<h2>Domain Problem Charactarization</h2>
+<ul>
+<li><p>Choosing an empiric dataset has a great impact on the quality of the project. After researching myriad types of dataset, 120 Years of Olympic game is considered for representation. Advantages of its dataset is not limited of being a large scale that spans between 1896 to 2016. Over the years of course to be able to show the medal counts in popular sports (basketball) and orphan sports (lacrosse) is some of the useful feature of the application. Last but not least, considering visual representation perspective and providing the best user experience, Olympic game dataset is found worth to study.</p></li>
+<li><p>The application aims to attract users who have interest on Olympics and address their curiosity in a clear way. Although, detailed information is provided in the app, primary research question is dealt with the dominant countries in each sport type. Dataset is picked from Kaggle, which consists of two distinct tables, athlete_events and event_regions, to address the primary question.</p></li>
+<li><p>App is consisted of five tabs, which are information about the Olympics, world and host city, top countries and athletes. One way to evaluate the shiny dashboard would be to set up an experiment where users asked which country got the most medals in different sports and examine if the answers are correct with the ground truth data.</p></li>
+</ul>
+</div>
+<div id="dataoperation-abstraction-design" class="section level2">
+<h2>Data/operation abstraction design</h2>
+<ul>
+<li><p>Two different data frames were used for creating dashboard. After exploring the dataset, it is decided not to remove any data, and instead data manipulation/transformation with the dplyr package was conducted to make it applicable and plausible.</p></li>
+<li><p>Some variables, athlete’s age, weight, and height were not executed in shiny dashboard but are incorporated in the presentation for the overview.</p></li>
+<li><p>Geospatial visual representation is reflected on world map.</p></li>
+<li><p>Detailed observations such as name, sex, age, weight, team’s region, game type, location, season, medals and the year of the Olympics were also examined.</p></li>
+<li><p>Both categorical (name, sex, team, region, year, city, and medal type), and numerical (athlete’s age, weight, and height) variables were utilized.</p></li>
+</ul>
+<p><strong>1. Athelete Events data</strong></p>
+<pre class="r"><code>library(&quot;plotly&quot;)
+library(&quot;tidyverse&quot;)
+library(&quot;data.table&quot;)
+library(&quot;gridExtra&quot;)
+library(&quot;knitr&quot;)
+library(&quot;gganimate&quot;)
+
+
+# Load athletes_events data 
+data &lt;- read_csv(&quot;Data/athlete_events.csv&quot;,
+                 col_types = cols(
+                   ID = col_character(),
+                   Name = col_character(),
+                   Sex = col_factor(levels = c(&quot;M&quot;,&quot;F&quot;)),
+                   Age =  col_integer(),
+                   Height = col_double(),
+                   Weight = col_double(),
+                   Team = col_character(),
+                   NOC = col_character(),
+                   Games = col_character(),
+                   Year = col_integer(),
+                   Season = col_factor(levels = c(&quot;Summer&quot;,&quot;Winter&quot;)),
+                   City = col_character(),
+                   Sport = col_character(),
+                   Event = col_character(),
+                   Medal = col_factor(levels = c(&quot;Gold&quot;,&quot;Silver&quot;,&quot;Bronze&quot;))
+                 )
+)
+
+glimpse(data)</code></pre>
+<pre><code>## Observations: 271,116
+## Variables: 15
+## $ ID     &lt;chr&gt; &quot;1&quot;, &quot;2&quot;, &quot;3&quot;, &quot;4&quot;, &quot;5&quot;, &quot;5&quot;, &quot;5&quot;, &quot;5&quot;, &quot;5&quot;, &quot;5&quot;, &quot;6&quot;, &quot;6…
+## $ Name   &lt;chr&gt; &quot;A Dijiang&quot;, &quot;A Lamusi&quot;, &quot;Gunnar Nielsen Aaby&quot;, &quot;Edgar Li…
+## $ Sex    &lt;fct&gt; M, M, M, M, F, F, F, F, F, F, M, M, M, M, M, M, M, M, M, …
+## $ Age    &lt;int&gt; 24, 23, 24, 34, 21, 21, 25, 25, 27, 27, 31, 31, 31, 31, 3…
+## $ Height &lt;dbl&gt; 180, 170, NA, NA, 185, 185, 185, 185, 185, 185, 188, 188,…
+## $ Weight &lt;dbl&gt; 80, 60, NA, NA, 82, 82, 82, 82, 82, 82, 75, 75, 75, 75, 7…
+## $ Team   &lt;chr&gt; &quot;China&quot;, &quot;China&quot;, &quot;Denmark&quot;, &quot;Denmark/Sweden&quot;, &quot;Netherlan…
+## $ NOC    &lt;chr&gt; &quot;CHN&quot;, &quot;CHN&quot;, &quot;DEN&quot;, &quot;DEN&quot;, &quot;NED&quot;, &quot;NED&quot;, &quot;NED&quot;, &quot;NED&quot;, &quot;…
+## $ Games  &lt;chr&gt; &quot;1992 Summer&quot;, &quot;2012 Summer&quot;, &quot;1920 Summer&quot;, &quot;1900 Summer…
+## $ Year   &lt;int&gt; 1992, 2012, 1920, 1900, 1988, 1988, 1992, 1992, 1994, 199…
+## $ Season &lt;fct&gt; Summer, Summer, Summer, Summer, Winter, Winter, Winter, W…
+## $ City   &lt;chr&gt; &quot;Barcelona&quot;, &quot;London&quot;, &quot;Antwerpen&quot;, &quot;Paris&quot;, &quot;Calgary&quot;, &quot;…
+## $ Sport  &lt;chr&gt; &quot;Basketball&quot;, &quot;Judo&quot;, &quot;Football&quot;, &quot;Tug-Of-War&quot;, &quot;Speed Sk…
+## $ Event  &lt;chr&gt; &quot;Basketball Men&#39;s Basketball&quot;, &quot;Judo Men&#39;s Extra-Lightwei…
+## $ Medal  &lt;fct&gt; NA, NA, NA, Gold, NA, NA, NA, NA, NA, NA, NA, NA, NA, NA,…</code></pre>
+<pre class="r"><code>head(data)</code></pre>
+<pre><code>## # A tibble: 6 x 15
+##   ID    Name  Sex     Age Height Weight Team  NOC   Games  Year Season
+##   &lt;chr&gt; &lt;chr&gt; &lt;fct&gt; &lt;int&gt;  &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;int&gt; &lt;fct&gt; 
+## 1 1     A Di… M        24    180     80 China CHN   1992…  1992 Summer
+## 2 2     A La… M        23    170     60 China CHN   2012…  2012 Summer
+## 3 3     Gunn… M        24     NA     NA Denm… DEN   1920…  1920 Summer
+## 4 4     Edga… M        34     NA     NA Denm… DEN   1900…  1900 Summer
+## 5 5     Chri… F        21    185     82 Neth… NED   1988…  1988 Winter
+## 6 5     Chri… F        21    185     82 Neth… NED   1988…  1988 Winter
+## # … with 4 more variables: City &lt;chr&gt;, Sport &lt;chr&gt;, Event &lt;chr&gt;,
+## #   Medal &lt;fct&gt;</code></pre>
+<p><strong>2. NOC Regions data</strong></p>
+<pre class="r"><code># Load data file matching NOCs with mao regions (countries)
+noc &lt;- read_csv(&quot;Data/noc_regions.csv&quot;,
+                col_types = cols(
+                  NOC = col_character(),
+                  region = col_character()
+                ))
+glimpse(noc)</code></pre>
+<pre><code>## Observations: 230
+## Variables: 3
+## $ NOC    &lt;chr&gt; &quot;AFG&quot;, &quot;AHO&quot;, &quot;ALB&quot;, &quot;ALG&quot;, &quot;AND&quot;, &quot;ANG&quot;, &quot;ANT&quot;, &quot;ANZ&quot;, &quot;…
+## $ region &lt;chr&gt; &quot;Afghanistan&quot;, &quot;Curacao&quot;, &quot;Albania&quot;, &quot;Algeria&quot;, &quot;Andorra&quot;…
+## $ notes  &lt;chr&gt; NA, &quot;Netherlands Antilles&quot;, NA, NA, NA, NA, &quot;Antigua and …</code></pre>
+<pre class="r"><code>head(noc)</code></pre>
+<pre><code>## # A tibble: 6 x 3
+##   NOC   region      notes               
+##   &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;               
+## 1 AFG   Afghanistan &lt;NA&gt;                
+## 2 AHO   Curacao     Netherlands Antilles
+## 3 ALB   Albania     &lt;NA&gt;                
+## 4 ALG   Algeria     &lt;NA&gt;                
+## 5 AND   Andorra     &lt;NA&gt;                
+## 6 ANG   Angola      &lt;NA&gt;</code></pre>
+</div>
+<div id="encodinginteraction-design" class="section level2">
+<h2>Encoding/Interaction design</h2>
+<ul>
+<li><p>Olympic games are globally played and thus the date revealed from it is interest of world map and the medal counts. Another interesting analysis is ranking of athletes and countries, which are represented with bar charts.</p></li>
+<li><p>User friendly Shiny dashboard is very convenient to show visual representations interactively, and more specific questions make it reliable tool. Redundant visual representations may negatively affect its usefulness, where it is aimed to provide concise visualization with deep understanding.</p></li>
+</ul>
+<p><strong>1. Has the number of athletes, nations, and events changed over time?</strong></p>
+<pre class="r"><code># Load athletes_events data 
+data &lt;- read_csv(&quot;Data/athlete_events.csv&quot;,
+                 col_types = cols(
+                   ID = col_character(),
+                   Name = col_character(),
+                   Sex = col_factor(levels = c(&quot;M&quot;,&quot;F&quot;)),
+                   Age =  col_integer(),
+                   Height = col_double(),
+                   Weight = col_double(),
+                   Team = col_character(),
+                   NOC = col_character(),
+                   Games = col_character(),
+                   Year = col_integer(),
+                   Season = col_factor(levels = c(&quot;Summer&quot;,&quot;Winter&quot;)),
+                   City = col_character(),
+                   Sport = col_character(),
+                   Event = col_character(),
+                   Medal = col_factor(levels = c(&quot;Gold&quot;,&quot;Silver&quot;,&quot;Bronze&quot;))
+                 )
+)
+
+# count number of athletes, nations, &amp; events, excluding the Art Competitions
+counts &lt;- data %&gt;%
+  group_by(Year, Season) %&gt;%
+  summarize(
+    Athletes = length(unique(ID)),
+    Nations = length(unique(NOC)),
+    Events = length(unique(Event))
+  )
+counts &lt;- counts %&gt;%
+  mutate(gap= if(Year&lt;1920) 1 else if(Year&gt;=1920 &amp; Year&lt;=1936) 2 else 3)
+p1 &lt;- ggplot(counts, aes(x=Year, y=Athletes, group=interaction(Season,gap), color=Season)) +
+  geom_point(size=2) +
+  geom_line() +
+  scale_color_manual(values=c(&quot;darkorange&quot;,&quot;darkblue&quot;)) +
+  xlab(&quot;&quot;) +  
+  
+  annotate(&quot;text&quot;,x=c(1916,1942),y=c(10000,10000),
+           label=c(&quot;WWI&quot;,&quot;WWII&quot;), size=4, color=&quot;red&quot;) +
+  geom_segment(mapping=aes(x=1914,y=8000,xend=1918,yend=8000),color=&quot;red&quot;, size=2) +
+  geom_segment(mapping=aes(x=1939,y=8000,xend=1945,yend=8000),color=&quot;red&quot;, size=2)
+p2 &lt;- ggplot(counts, aes(x=Year, y=Nations, group=interaction(Season,gap), color=Season)) +
+  geom_point(size=2) +
+  geom_line() +
+  scale_color_manual(values=c(&quot;darkorange&quot;,&quot;darkblue&quot;)) +
+  xlab(&quot;&quot;) 
+p3 &lt;- ggplot(counts, aes(x=Year, y=Events, group=interaction(Season,gap), color=Season)) +
+  geom_point(size=2) +
+  geom_line() +
+  scale_color_manual(values=c(&quot;darkorange&quot;,&quot;darkblue&quot;))
+grid.arrange(p1, p2, p3, ncol=1)</code></pre>
+<p><img src="/post/2019-05-03-120-years-of-olympics_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
+<p><strong>2. Which countries won the most medals (TOP 10)?</strong></p>
+<pre class="r"><code># count number of medals awarded to each Team
+medal_counts &lt;- data %&gt;% filter(!is.na(Medal))%&gt;% 
+  group_by(Team, Medal) %&gt;%
+  summarize(Count=length(Medal))
+
+# order Team by total medal count
+levs &lt;- medal_counts %&gt;%
+  group_by(Team) %&gt;%
+  summarize(Total=sum(Count)) %&gt;%
+  arrange(desc(Total)) %&gt;%
+  select(Team) %&gt;%
+  slice(10:1)
+medal_counts$Team &lt;- factor(medal_counts$Team, levels=levs$Team)
+medal_counts &lt;- medal_counts %&gt;% filter(Team != &quot;NA&quot;)
+# plot
+ggplot(medal_counts, aes(x=Team, y=Count, fill=Medal)) +
+  geom_col() +
+  coord_flip() +
+  scale_fill_manual(values=c(&quot;gold1&quot;,&quot;gray70&quot;,&quot;gold4&quot;)) +
+  ggtitle(&quot;Historical medal counts from Competitions&quot;) +
+  theme(plot.title = element_text(hjust = 0.5))</code></pre>
+<p><img src="/post/2019-05-03-120-years-of-olympics_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>Top countries in Olympic games were found to be USA, Soviet Union, Germany, Great Britain, France, Italy, Sweden, Australia, Canada, Hungary. Another helpful information expresses that USA is dominant country in terms of gold, silver, bronze medals.</p>
+<p><strong>3.Which countries won the most medals- Map view</strong></p>
+<pre class="r"><code># Load data file matching NOCs with mao regions (countries)
+noc &lt;- read_csv(&quot;Data/noc_regions.csv&quot;,
+                col_types = cols(
+                  NOC = col_character(),
+                  region = col_character()
+                ))
+
+medal_counts &lt;- data %&gt;% filter(!is.na(Medal))%&gt;% 
+  group_by(NOC) %&gt;%
+  summarize(Count=length(Medal))
+
+data_regions &lt;- medal_counts %&gt;% 
+  left_join(noc,by=&quot;NOC&quot;) %&gt;%
+  filter(!is.na(region))
+
+world &lt;- map_data(&quot;world&quot;)
+world &lt;- left_join(world, data_regions, by=&quot;region&quot;)
+# Plot: 
+p &lt;- ggplot(world, aes(x = long, y = lat, group = group)) +
+  geom_polygon(aes(fill = Count, label= region)) +
+  labs(title = &quot;regions&quot;,
+       x = NULL, y=NULL) +
+  theme(axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        panel.background = element_rect(fill = &quot;navy&quot;),
+        plot.title = element_text(hjust = 0.5)) +
+  guides(fill=guide_colourbar(title=&quot;medals&quot;)) +
+  scale_fill_gradient(low=&quot;lightgreen&quot;,high=&quot;darkgreen&quot;)</code></pre>
+<p><strong>4.Number of female and male over time</strong></p>
+<p>Despite the fact that male athletes were tremendously higher than the females, the latter one showed steep slope after 1980, where ultimately the difference was only around 2000 between them.</p>
+<pre class="r"><code># Exclude art competitions from data (I won&#39;t use them again in the kernel)
+data &lt;- data %&gt;% filter(Sport != &quot;Art Competitions&quot;)
+
+# Recode year of Winter Games after 1992 to match the next Summer Games
+# Thus, &quot;Year&quot; now applies to the Olympiad in which each Olympics occurred 
+original &lt;- c(1994,1998,2002,2006,2010,2014)
+new &lt;- c(1996,2000,2004,2008,2012,2016)
+for (i in 1:length(original)) {
+  data$Year &lt;- gsub(original[i], new[i], data$Year)
+}
+data$Year &lt;- as.integer(data$Year)
+
+# Table counting number of athletes by Year and Sex
+counts_sex &lt;- data %&gt;% group_by(Year, Sex) %&gt;%
+  summarize(Athletes = length(unique(ID)))
+counts_sex$Year &lt;- as.integer(counts_sex$Year)</code></pre>
+<p><strong>Primary and secondry view findings</strong></p>
+<p>Please see the shiny dashboard. (<a href="https://anjali-bapat.shinyapps.io/Final_Project/" class="uri">https://anjali-bapat.shinyapps.io/Final_Project/</a>)</p>
+<ul>
+<li><p>Top countries in Olympic games were found to be USA, Soviet Union, Germany, Great Britain, France, Italy, Sweden, Australia, Canada, Hungary. Another helpful information expresses that USA is dominant country in terms of gold, silver, bronze medals.</p></li>
+<li><p>Despite the fact that male athletes were tremendously higher than the females, the latter one showed steep slope after 1980, where ultimately the difference was only around 2000 between them.</p></li>
+<li><p>USA athletes, Matt Biondi and Natalie Anne Coughlin win the most gold and bronze medals, respectively.</p></li>
+<li><p>Only few countries (Canada, France, Norway, USA, Austria, Australia) showed success in Olympics snowboarding games. Although Australia has the tropical influenced climate surprisingly they showed success for winning gold and silver medals.</p></li>
+<li><p>The total numbers of the medals in rhythmic gymnastic category in Russia is almost equal to the total numbers of the medals in the rest of the countries.</p></li>
+<li>Lacrosse is the popular game in only Canada, UK and the USA.</li>
+<li><p>USA, Serbia Russia, Brazil, Australia is the most successful countries in basketball.</p></li>
+<li><p>Badminton is popular only two region of the world which is Asia and Europe. China is the most successful country in badminton, follows it Indonesia, Malaysia, Denmark, UK, South Korea.</p></li>
+<li><p>The number of the athletics sport is overpopulated since it has many categories. Majority of the countries has an athletes in athletics category and gained at least a medal over the year.</p></li>
+</ul>
+</div>
+<div id="algorithic-design" class="section level2">
+<h2>Algorithic design</h2>
+<p>Validation is about whether one has built the right product, and verification is about whether one has built the product right. The innermost level is to create an algorithm to carry out the visual encoding and interaction design effectively. The performance of the system is significant component of the accessibility and the usability. Coding and design of the system have created considering the performance of the application. Tidiness and neatness of data coding effects the system performance and reproducibility. The variables which may slow down the application has created at the top of the application as a pre-processing portion of the system. Additionally, reproducibility (please see the URL for Github) and readiness for the production designed considering the user.</p>
+</div>
+<div id="user-evaluation" class="section level2">
+<h2>User evaluation</h2>
+<ul>
+<li><p>The system will be evaluated as completing survey by the users . This evaluation will provide to system developer understanding of data essentials, user needs and expectations. It is the most crucial part of the system giving insights with visual representations. Also, essential for future work to improve the quality of the application.</p></li>
+<li><p>The primary goal of the dashboard is to explain how the user may benefit from our system experiencing visual representations. User interfaces are pretty significant since we would like to reach out the individual who has knowledge about Olympics or not. That’s why it should be simple and clear and useful. The evaluation should at least consider whether the product meets the specific requirement of the user but that alone is not sufficient. The product must be effective, efficient and server purpose before it will be adopted by the final user.</p></li>
+</ul>
+</div>
+<div id="future-work" class="section level2">
+<h2>Future work</h2>
+<ul>
+<li><p>find corelation of winning medel with nations’ GDP and other factor.</p></li>
+<li><p>come up with predictive model to predict win probability.</p></li>
+<li><p>Survey feedback of the system will provide whether the system is functional, effective, and performing well in user perspective. It will be considered for the future work to improve the dashboard.</p></li>
+<li><p>It may be added the pictures of the athletes next to their names on the dashboard. Since recognizing face is easier to remembering names.</p></li>
+<li><p>It could be faceted the system into the years aiming to compare each region between itself.</p></li>
+</ul>
+</div>
+<div id="appendix" class="section level2">
+<h2>Appendix</h2>
+<ul>
+<li>More visual representation.</li>
+</ul>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<ul>
+<li><p><a href="https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis" class="uri">https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis</a></p></li>
+<li><p>wikipedia</p></li>
+<li><p><a href="https://github.com/anjbapat/Olympics.github.io" class="uri">https://github.com/anjbapat/Olympics.github.io</a></p></li>
+</ul>
+</div>
+</div>
+
+    
+    
+
+    
+
+    
+
+        <h4 class="page-header">Comments</h4>
+
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "username" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">&copy; All rights reserved. Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+

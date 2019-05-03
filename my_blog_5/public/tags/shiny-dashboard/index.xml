@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiny dashboard on Elif Demir</title>
+    <link>/tags/shiny-dashboard/</link>
+    <description>Recent content in shiny dashboard on Elif Demir</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/shiny-dashboard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>120 Years of Olympics </title>
+      <link>/post/120-years-of-olympics/</link>
+      <pubDate>Fri, 03 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/120-years-of-olympics/</guid>
+      <description>Introduction The ancient olympic game was help at Olympia, Greece, from 776 BC through 393 AD. It returned after 1503 years. THe first modern olympic was held in Athenes, Greece in 1896. The ‘modern Olympics’ comprises all the Games from Athens 1896 to Rio 2016. Baron Pierre de Coubertin presented the idea in 1894.
+There are two long periods without any Games between 1912-1920 and 1936-1948, corresponding to WWI and WWII.</description>
+    </item>
+    
+  </channel>
+</rss>

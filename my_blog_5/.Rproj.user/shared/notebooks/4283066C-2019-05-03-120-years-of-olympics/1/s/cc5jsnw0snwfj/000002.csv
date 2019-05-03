@@ -1,0 +1,18 @@
+"0","# Load data file matching NOCs with mao regions (countries)"
+"0","noc <- read_csv(""Data/noc_regions.csv"","
+"0","                col_types = cols("
+"0","                  NOC = col_character(),"
+"0","                  region = col_character()"
+"0","                ))"
+"0","glimpse(noc)"
+"1","Observations: 230
+"
+"1","Variables: 3
+"
+"1","$ NOC    [3m[38;5;246m<chr>[39m[23m ""AFG"", ""AHO"", ""ALB"", ""ALG"", ""AND"", ""ANG"", ""ANT"", ""ANZ"", …
+"
+"1","$ region [3m[38;5;246m<chr>[39m[23m ""Afghanistan"", ""Curacao"", ""Albania"", ""Algeria"", ""Andorra…
+"
+"1","$ notes  [3m[38;5;246m<chr>[39m[23m NA, ""Netherlands Antilles"", NA, NA, NA, NA, ""Antigua and…
+"
+"0","head(noc)"
